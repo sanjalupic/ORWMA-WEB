@@ -1,0 +1,52 @@
+body{
+    background:url("../backgraund.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 1em;
+    margin: 1em 2em;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 7em;
+}
+a{
+    font-weight: bold;
+    text-shadow: 1px 1px white;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+}
+.janeimg {
+    float: left;
+    margin: 0em 2em;
+}
+.content, .text{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 1em;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.houseimg{
+    clear: both;
+    float: right;
+    margin: 2em;
+}
+.autograph{
+    clear: both;
+    margin-left: 19em;
+    margin-bottom: 0em;   
+}
+
